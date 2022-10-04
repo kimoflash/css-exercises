@@ -21,6 +21,11 @@ img {
 .media {
   display: flex;
   justify-content: center;
+  gap: 52px;
+}
+
+.media .items {
+  width: 200px;
 }
 
 /* do not edit this footer */
