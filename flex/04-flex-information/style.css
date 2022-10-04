@@ -12,6 +12,12 @@ img {
   font-weight: 900;
 }
 
+.top .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
