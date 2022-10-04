@@ -31,6 +31,11 @@ img {
   align-items: center;
 }
 
+.items .text {
+  word-wrap: break-word;
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
