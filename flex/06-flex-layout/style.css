@@ -48,11 +48,14 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
 
 .left-links,
 .right-links {
-display: flex;
-gap: 16px;
+  display: flex;
+  margin: 16px;
 }
