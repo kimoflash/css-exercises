@@ -30,17 +30,6 @@ input {
   margin-bottom: 16px;
 }
 
-.header,
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-links,
-.right-links {
-  display: flex;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -49,4 +38,21 @@ ul {
   gap: 16px;
 }
 
-a { text-decoration: none; color: black; }
+a { 
+  text-decoration: none; 
+  color: black; 
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+}
+
+.left-links,
+.right-links {
+display: flex;
+gap: 16px;
+}
