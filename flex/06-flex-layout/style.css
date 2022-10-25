@@ -30,13 +30,23 @@ input {
   margin-bottom: 16px;
 }
 
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 16px;
 }
 
-a:link { text-decoration: none; color: black; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; color: blue;}
-a:active { text-decoration: none; }
+a { text-decoration: none; color: black; }
