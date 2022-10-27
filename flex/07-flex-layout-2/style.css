@@ -21,10 +21,10 @@ body {
 }
 
 .sidebar {
-  width: 300px;
   background: royalblue;
   display: flex;
   flex: 0 0 300px;
+  padding: 16px;
 }
 
 .card {
@@ -47,4 +47,20 @@ body {
 .container {
   display: flex;
   flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
