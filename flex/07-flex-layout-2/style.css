@@ -32,13 +32,19 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
+  width: 300px;
+  height: 300px;
+  padding: 0.5cm;
 }
 
 .content {
   display: flex;
-  flex: 0 1 100px;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 25px;
 }
 
 .container {
   display: flex;
+  flex-direction: row;
 }
